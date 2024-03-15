@@ -21,7 +21,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>List of Prerequisites</h2>
 
 - Create an Azure Virtual Machine Windows 10 with at least 2 vCPUS
-- Item 2
+- Install/Enable IIS in windows with CGI and Common HTTP Features
 - Item 3
 - Item 4
 - Item 5
@@ -43,7 +43,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Once you are logged in to your virtual machine, right click the windows button in the bottom left corner and click "run". Next type "control" and click ok. You will be take to the control panel where you will then click on "Programs". Underneath "programs and features" there should be a "turn Windows features on or off' button that you will click. Scroll down and select "Internet Information Services". Click the plus to the left of it to revel the dropdown. Next click the "World Wide Web Services" dropdown button.
 </p>
 <br />
 
