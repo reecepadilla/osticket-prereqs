@@ -35,7 +35,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 </p>
 <p>
-  To start off, you need to have a Microsoft Azure account in order to create the Windows 10 virtual machine(vm). Once your account is created go into the upper search bar and lookup "Virtual Machine". Create a new virtual machine and resource group. Make sure to select Windows 10 and a size of at least 2 vCPUS as shown in the image above. Next create a username and password that you will remember. Next click create.
+  To start off, you need to have a Microsoft Azure account in order to create the Windows 10 virtual machine(vm). Once your account is created go into the upper search bar and lookup "Virtual Machine". Create a new virtual machine and resource group. Make sure to select Windows 10 and a size of at least 2 vCPUS as shown in the image above. Next create a username and password that you will remember. Next click create. Once created, use your personal computer to open remote desktop. Login in using your virtual machine's public IP address and username and password that you created.
 </p>
 <br />
 
