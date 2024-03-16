@@ -52,9 +52,11 @@ Once you are logged in to your virtual machine, right click the windows button i
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+![image](https://github.com/reecepadilla/osticket-prereqs/assets/163461509/451ea13f-844a-4510-8ef5-4cc0d62506f7)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+After changes have been applied, download <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">Installation Files</a> and install them on your Windows 10 virtual machine. After you have downloaded and installed all files create a new folder labeled "PHP" on the root of C drive.
 </p>
 <br />
