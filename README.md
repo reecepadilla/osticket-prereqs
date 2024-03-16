@@ -22,7 +22,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Create an Azure Virtual Machine Windows 10 with at least 2 vCPUS
 - Install/Enable IIS in windows with CGI and Common HTTP Features
-- Item 3
+- Install osTicket
 - Item 4
 - Item 5
 
@@ -57,6 +57,6 @@ Once you are logged in to your virtual machine, right click the windows button i
 
 </p>
 <p>
-After changes have been applied, download <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">Installation Files</a> and install them on your Windows 10 virtual machine. After you have downloaded and installed all files create a new folder labeled "PHP" on the root of C drive.
+After changes have been applied, download <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">Installation Files</a> and install them on your Windows 10 virtual machine. After you have downloaded and installed all files, create a new folder labeled "PHP" on the root of C drive. Then unzip the <a href="https://drive.google.com/file/d/1snNMtLdCOpMtkCyD4mvl9yOOmvVIp9fP/view">PHP file</a> into the PHP folder that you just created. Next you will need to open Internet Information Services as an admin and register PHP by going to PHP manager->register new PHP in PHP folder-> click PHP CGI and then restart the IIS server.
 </p>
 <br />
