@@ -43,7 +43,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Once you are logged in to your virtual machine, right click the windows button in the bottom left corner and click "run". Next type "control" and click ok. You will be take to the control panel where you will then click on "Programs". Underneath "programs and features" there should be a "turn Windows features on or off' button that you will click. Scroll down and select "Internet Information Services". Click the plus to the left of it to revel the dropdown. Next click the "World Wide Web Services" dropdown button.
+Once you are logged in to your virtual machine, right click the windows button in the bottom left corner and click "run". Next type "control" and click ok. You will be take to the control panel where you will then click on "Programs". Underneath "programs and features" there should be a "turn Windows features on or off' button that you will click. Scroll down and select "Internet Information Services". Click the plus to the left of it to revel the dropdown. Next click the "World Wide Web Services" dropdown button. Then click the "Application Development Feature" dropdown button. Enable CGI by clicking on the box. Minimize the "Application Development Feature" drodown and select "Common HTTP Features" dropdwon and make sure all boxes are selected. Then click "ok" in the bottom right.
 </p>
 <br />
 
