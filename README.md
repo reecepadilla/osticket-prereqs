@@ -23,7 +23,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Create an Azure Virtual Machine Windows 10 with at least 2 vCPUS
 - Install/Enable IIS in windows with CGI and Common HTTP Features
 - Install osTicket
-- Item 4
+- Continue setting up osTicket in browser
 - Item 5
 
 <h2>Installation Steps</h2>
@@ -69,4 +69,11 @@ After changes have been applied, download all <a href="https://drive.google.com/
 </p>
 <p>
   You should be brought to the page above with some extensions unchecked which we will fix in a second. Go back to ISS, sites->default web site->osTicket and double click PHP Manager. Click "enable or disable an extension" and enable "php_imap.dll", "php_intl.dll", and "php_opcache.dll". Then refresh the osTicket site in your browser. Next go to C:->inetpub->wwwroot->osTicket->include->ost-sampleconfig.php and right click "ost-sampleconfig.php" to access the file's properties. From there, go to security->advanced->disable inheritance->remove all inherited permissions from this object. Then from there, go to add->select a principal and add "everyone". Make sure to check the box of "full control" in basic permissions.
+</p>
+
+![image](https://github.com/reecepadilla/osticket-prereqs/assets/163461509/265c93ca-5d38-4e54-8f8e-87efdc4641bb)
+
+</p>
+<p>
+  Next you are going to continue setting up osTicket in your browser. Fill out all the information required until you get to database settings. Now go to the <a href="https://docs.google.com/document/d/1WovrX2DaS9xkfaSr4LXyB4YnnWpXIgPCMMbbfgHmGVw/edit">HeidiSQL file</a> and  create a new connection. Type the password you created from the MySQL file and click open. Then right click "unnamed" and "create database" and name it "osTicket". Now go back to osTicket in your browser and and fill out the database setting with your: My SQL database: osTicket, Username: root, Password:(whatever password you made). Next click install and there you go! Now all you need to do is a quick cleanup. go to C:->inetpub->wwwroot->osTicket->setup and delete "setup". And lastly go to C:->inetpub->wwwroot->osTicket->include->ost-config.php and set permisions to only "read and execute" and "read". Congratulations! You have finished installing and setting up osTicket!
 </p>
