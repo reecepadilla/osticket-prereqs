@@ -24,7 +24,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Install/Enable IIS in windows with CGI and Common HTTP Features
 - Install osTicket
 - Continue setting up osTicket in browser
-- Item 5
+- Create SQL database/quick cleanup
 
 <h2>Installation Steps</h2>
 
