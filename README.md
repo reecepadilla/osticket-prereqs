@@ -57,6 +57,16 @@ Once you are logged in to your virtual machine, right click the windows button i
 
 </p>
 <p>
-After changes have been applied, download <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">Installation Files</a> and install them on your Windows 10 virtual machine. After you have downloaded and installed all files, create a new folder labeled "PHP" on the root of C drive. Then unzip the <a href="https://drive.google.com/file/d/1snNMtLdCOpMtkCyD4mvl9yOOmvVIp9fP/view">PHP file</a> into the PHP folder that you just created. Next you will need to open Internet Information Services as an admin and register PHP by going to PHP manager->register new PHP in PHP folder-> click PHP CGI and then restart the IIS server.
+After changes have been applied, download all <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">Installation Files</a> and install them on your Windows 10 virtual machine. After you have downloaded and installed all files, create a new folder labeled "PHP" on the root of C drive. Then unzip the <a href="https://drive.google.com/file/d/1snNMtLdCOpMtkCyD4mvl9yOOmvVIp9fP/view">PHP file</a> into the PHP folder that you just created. Next you will need to open Internet Information Services as an admin and register PHP by going to PHP manager->register new PHP in PHP folder-> click PHP CGI and then restart the IIS server. Then select the osTicket file in downloads and drag and drop the "upload" folder to c:\->inetpub->wwwroot. Next rename the upload folder to "osTicket" and restart the IIS server. After restarting, go to sites->default web site->osTicket and over to the right there is a blue hyper link labeled “Browse *:80” that you will click.
 </p>
 <br />
+
+<p>
+
+![image](https://github.com/reecepadilla/osticket-prereqs/assets/163461509/c040112d-6b80-4d06-9881-c01117561d50)
+
+
+</p>
+<p>
+  You should be brought to the page above with some extensions unchecked which we will fix in a second. Go back to ISS, sites->default web site->osTicket and double click PHP Manager. Click "enable or disable an extension" and enable "php_imap.dll", "php_intl.dll", and "php_opcache.dll". Then refresh the osTicket site in your browser. Next go to C:->inetpub->wwwroot->osTicket->include->ost-sampleconfig.php and right click "ost-sampleconfig.php" to access the file's properties. From there, go to security->advanced->disable inheritance->remove all inherited permissions from this object. Then from there, go to add->select a principal and add "everyone". Make sure to check the box of "full control" in basic permissions.
+</p>
